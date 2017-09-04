@@ -19,7 +19,7 @@ public class Start {
                            "Please enter a number to convert to binary." ); 
         
         convInput = Integer.parseInt(keyboard.nextLine());
-        Coverter binary = new Coverter(convInput);
+        Converter converter = new Converter(convInput);
         
     }
     
