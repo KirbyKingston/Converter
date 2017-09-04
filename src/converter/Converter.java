@@ -16,6 +16,8 @@ public class Converter {
     
     public Converter(int input){
         this.input = input;
+        this.output = output;
+        this.displayOutput(output);
     }
     
     public int getInput() {
@@ -25,15 +27,6 @@ public class Converter {
     public void setInput(int input) {
         this.input = input;
     }
-    public void convertInput(int input){
-    int output[] = new int[input];
-    int index = 0;
-    while(input > 0){
-        output[index++] = input%2;
-        input = input/2;
-        }
-    System.out.println (Arrays.toString(output));
-    }
     public int[] getOutput() {
         return output;
     }
@@ -41,8 +34,18 @@ public class Converter {
     public void setOutput(int output[]) {
         this.output = output;
     }
+    public void convertInput(int input){
+    int output[] = new int[input];
+    int index = 0;
+    while(input > 0){
+        output[index++] = input%2;
+        input = input/2;
+        }
+    
+    }
+    
     public void displayOutput(int output[]){
     System.out.println (Arrays.toString(output));
     }
-
+    
 }
