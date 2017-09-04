@@ -6,7 +6,7 @@ import java.util.Scanner;
  *
  * @author Mitch
  */
-public class Converter {
+public class Start {
     
     
 
@@ -19,7 +19,7 @@ public class Converter {
                            "Please enter a number to convert to binary." ); 
         
         convInput = Integer.parseInt(keyboard.nextLine());
-        Binary binary = new Binary(convInput);
+        Coverter binary = new Coverter(convInput);
         
     }
     
