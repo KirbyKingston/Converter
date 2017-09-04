@@ -25,14 +25,6 @@ public class Converter {
     public void setInput(int input) {
         this.input = input;
     }
-    
-    public int[] getOutput() {
-        return output;
-    }
-
-    public void setOutput(int output[]) {
-        this.output = output;
-    }
     public void convertInput(int input){
     int output[] = new int[input];
     int index = 0;
@@ -42,9 +34,15 @@ public class Converter {
         }
     System.out.println (Arrays.toString(output));
     }
+    public int[] getOutput() {
+        return output;
+    }
+
+    public void setOutput(int output[]) {
+        this.output = output;
+    }
     public void displayOutput(int output[]){
     System.out.println (Arrays.toString(output));
     }
-
 
 }
