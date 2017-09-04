@@ -16,8 +16,6 @@ public class Converter {
     
     public Converter(int input){
         this.input = input;
-        this.convertInput(input);
-        this.displayOutput(output);
     }
     
     public int getInput() {
