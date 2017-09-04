@@ -9,11 +9,10 @@ public class Binary {
     
     private int BIN;
     
-    
     public Binary(int BIN){
-        setBIN(BIN);   
-    
+        this.BIN = BIN;
     }
+
     
     public int getBIN() {
         return BIN;
