@@ -41,7 +41,7 @@ public class Converter {
             output[index++] = input%2;
             input = input/2;
         }
-    System.out.println (Arrays.toString(output));
+    
     }
     
     private void displayOutput(int[] output){
